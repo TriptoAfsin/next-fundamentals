@@ -60,6 +60,12 @@
   font-size: 1.5rem;
 }
 
+.subtitle {
+  margin: 0;
+  line-height: 1;
+  font-size: 2.5rem;
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -112,6 +118,26 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
+.products {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.products a{
+  padding: 0.5rem 1rem;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.products a:hover,
+.products a:focus,
+.products a:active {
+  text-decoration: underline;
+}
+
+
+
 
 @media (max-width: 600px) {
   .grid {
